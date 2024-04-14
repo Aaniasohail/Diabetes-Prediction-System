@@ -1,0 +1,59 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif; /* Clear font for readability */
+    margin: 20px; /* Add spacing around edges */
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  h1 {
+    text-align: center; /* Center the heading */
+    font-size: 24px;
+    margin-bottom: 30px; /* Add space before the form */
+  }
+  
+  /* Form styling */
+  form {
+    width: 400px;
+    margin: 0 auto; /* Center the form */
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White background for contrast */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  label {
+    display: block; /* Display labels on separate lines */
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Accessibility considerations */
+  label:focus-within {
+    outline: 2px solid blue; /* Highlight focused labels */
+  }
+  
+  input:focus,
+  button:focus {
+    outline: 2px solid blue; /* Highlight focused inputs and buttons */
+  }
+  
